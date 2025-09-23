@@ -92,8 +92,18 @@ description: [html files it refers to (if known)]
     background-attachment: scroll; 
   }
 
-  .nav-container a{
-    font-size: 13;
+  /* Responsive header and navigation: arranges items in a row, allows wrapping, centers them, and adds small gaps */
+  header, .nav-wrapper { 
+  flex-direction: row;   
+  flex-wrap: wrap;       
+  justify-content: center; 
+  gap: 4px;              
+  }
+
+  /* Responsive navigation links: reduces font size and padding for better fit on smaller screens */
+  .nav-container a {
+  font-size: 14px;      
+  padding: 6px 8px;     
   }
 
   /* Mobile heading style: reduces h1 font size to 1.6rem for better readability on smaller screens */
