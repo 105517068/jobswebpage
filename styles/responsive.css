@@ -92,6 +92,10 @@ description: [html files it refers to (if known)]
     background-attachment: scroll; 
   }
 
+  .nav-container a{
+    font-size: 13;
+  }
+
   /* Mobile heading style: reduces h1 font size to 1.6rem for better readability on smaller screens */
   h1 {
     font-size: 1.6rem; 
